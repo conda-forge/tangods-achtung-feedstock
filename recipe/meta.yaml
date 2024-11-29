@@ -18,13 +18,13 @@ build:
 
 requirements:
   host:
-    - python >=3.9
+    - python {{ python_min }}
     - setuptools >=45
     - wheel
     - setuptools-scm >=6.2
     - pip
   run:
-    - python >=3.9
+    - python >={{ python_min }}
     - pytango
     - pyparsing
     - httpx
@@ -37,6 +37,7 @@ test:
     - Achtung --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://gitlab.com/MaxIV/dev-maxiv-achtung
