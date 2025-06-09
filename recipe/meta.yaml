@@ -1,5 +1,5 @@
 {% set name = "tangods-achtung" %}
-{% set version = "0.13.0" %}
+{% set version = "0.13.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/tangods_achtung-{{ version }}.tar.gz
-  sha256: 6092885fc8eec0cd2869cece7235ada993c4417bf954387544ebcb3b5586a243
+  sha256: 14821362d3ba544d974a4440add5c81d687c725ab19da39fd1f88c915a5958f4
 
 build:
   entry_points:
