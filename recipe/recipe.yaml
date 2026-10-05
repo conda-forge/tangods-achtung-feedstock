@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: tangods-achtung
-  version: "0.15.0"
+  version: "0.16.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/tangods_achtung-${{ version }}.tar.gz
-  sha256: 9d519696a9f623cea057c01582d186d2adaed580438ba04188c416b8cf01f076
+  sha256: ebe8af8bd98480be6a8e0697e9b38d0e17ba962635230ddbc8cf36f6cd57b51b
 
 build:
   number: 0
