@@ -29,7 +29,7 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - pytango
+    - pytango >=10.1
     - pyparsing
     - httpx
 
